@@ -6,3 +6,21 @@
 
 /chat_gpt_bot/.env
 .env
+
+/pytube_lib/build/task_2/Analysis-00.toc
+/pytube_lib/build/task_2/base_library.zip
+/pytube_lib/build/task_2/EXE-00.toc
+/pytube_lib/build/task_2/PKG-00.toc
+/pytube_lib/pyinstaller --onefile --windowed ta.txt
+/pytube_lib/build/task_2/PYZ-00.pyz
+/pytube_lib/build/task_2/PYZ-00.toc
+/pytube_lib/build/task_2/task_2.pkg
+/pytube_lib/task_2.spec
+/task_2.spec
+/pytube_lib/build/task_2/Tree-00.toc
+/pytube_lib/build/task_2/Tree-01.toc
+/pytube_lib/build/task_2/Tree-02.toc
+/pytube_lib/build/task_2/warn-task_2.txt
+/pytube_lib/build/task_2/xref-task_2.html
+/pytube_lib/dist/Загрузка_youtube.exe
+/название_вашего_скрипта.spec
