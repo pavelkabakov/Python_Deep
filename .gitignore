@@ -3,3 +3,6 @@
 /.idea/inspectionProfiles/profiles_settings.xml
 /.idea/Python_Deep.iml
 /.idea/vcs.xml
+
+/chat_gpt_bot/.env
+.env

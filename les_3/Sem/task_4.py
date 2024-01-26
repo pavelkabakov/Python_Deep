@@ -1,16 +1,10 @@
-import math
-import decimal
+# ✔ Создайте вручную список с повторяющимися элементами.
+# ✔ Удалите из него все элементы, которые встречаются дважды.
 
+# Создаем список с повторяющимися элементами
+my_list = [1, 2, 3, 2, 4, 5, 3, 6, 6, 6]
 
-def area(d):
-    decimal.getcontext().prec = 42
-    pi = decimal.Decimal(str(math.pi))
-    d = decimal.Decimal(str(d))
-    return pi * (d / 2) ** 2
+# Удаляем элементы, которые встречаются дважды
+unique_list = [item for item in my_list if my_list.count(item) != 2]
 
-
-def len_circle(d):
-    decimal.getcontext().prec = 42
-    pi = decimal.Decimal(str(math.pi))
-    d = decimal.Decimal(str(d))
-    return pi * d
+print(unique_list)
