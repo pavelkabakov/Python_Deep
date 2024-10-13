@@ -2,12 +2,14 @@ import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from pytube import YouTube
 
+
 def show_progress(stream, chunk, bytes_remaining):
     total_size = stream.filesize
     bytes_downloaded = total_size - bytes_remaining
     percentage_of_completion = bytes_downloaded / total_size * 100
     progress_bar['value'] = percentage_of_completion
     root.update_idletasks()
+
 
 def download_video():
     folder = filedialog.askdirectory()
@@ -22,6 +24,7 @@ def download_video():
         progress_bar['value'] = 0  # сброс полосы прогресса после загрузки
     except Exception as e:
         messagebox.showerror("Ошибка", str(e))
+
 
 # Создание окна
 root = tk.Tk()

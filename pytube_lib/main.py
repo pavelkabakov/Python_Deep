@@ -1,7 +1,7 @@
 from pytube import YouTube
 
 # ссылка на загружаемое видео
-link = "https://www.youtube.com/watch?v=J0Aq44Pze-w"
+link = "https://youtu.be/lSIwOUv_Qn4?si=QLyyMLfHLk-AGhie"
 yt = YouTube(link)
 print(yt.streams)
 yt = YouTube(link).streams.get_highest_resolution()
