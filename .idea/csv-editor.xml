@@ -3,6 +3,20 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\Coursera_Python_Basic\csv_format\reduced_olympics.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Coursera_Python_Basic\csv_format\reduced_olympics2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\les_8_serialization\homework\results.csv">
           <value>
             <Attribute>
